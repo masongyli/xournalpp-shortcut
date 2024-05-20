@@ -1,0 +1,2 @@
+A xournal++ shortcut plugin
+
