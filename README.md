@@ -2,17 +2,34 @@
 This is a plugin for Xournal++ that provides shortcuts for changing tools, colors, and other actions.
 
 ## Installation
-Save the project as a subfolder in the plugin folder of your Xournal++.
+Save the project as a subfolder in Xournal++'s config folder's plugins folder.
 
-| System                      | Plugin folder                                   |
-| --------------------------- | ----------------------------------------------- |
-| Linux (.deb installer)      | `/usr/share/xournalpp/plugins`                  |
-| MacOS (.app-bundle)         | `Xournal++.app/Contents/Resources/plugins`      |
-| MS Windows (.exe installer) | `C:\Programs\Xournal++\share\xournalpp\plugins` |
+| System                   | Xournal++'s config folder's plugins folder.       |
+| ------------------------ | ------------------------------------------------- |
+| Linux (.deb installer)   | `~/.config/xournalpp/plugins`                     |
+| MacOS (.app-bundle)      | `~/.config/xournalpp/plugins`                     |
+| Windows (.exe installer) | `C:\Users\<user>\AppData\Local\xournalpp\plugins` |
 
-For more information, see the offical [Plugin Installation folder](https://xournalpp.github.io/guide/plugins/plugins/#installation-folder)
+For convenience, you can use the following commands to install the plugin.
 
-Take "Linux (.deb installer)" as an example, the file path of `main.lua` should be `/usr/share/xournalpp/plugins/Shortcuts/main.lua`
+### Linux (.deb installer) and MacOS (.app-bundle)
+Run the following command in the terminal to install the plugin.
+```bash
+git clone https://github.com/masongyli/xournalpp-shortcut.git ~/.config/xournalpp/plugins/Shortcuts
+```
+
+After that, the file path of `main.lua` should be `~/.config/xournalpp/plugins/Shortcuts/main.lua`
+
+### Windows (.exe installer)
+Run the following command in Git Bash to install the plugin.
+```bash
+git clone https://github.com/masongyli/xournalpp-shortcut.git ~/AppData/Local/xournalpp/plugins/Shortcuts
+```
+
+or run the following command in cmd to install the plugin.
+```cmd
+git clone https://github.com/masongyli/xournalpp-shortcut.git %homedrive%%homepath%\AppData\Local\xournalpp\plugins\Shortcuts
+```
 
 ## Default shortcuts
 The following shortcuts can be customized. See [How to cutomize shortcuts](#how-to-customize-shortcuts)
