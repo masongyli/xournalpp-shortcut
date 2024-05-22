@@ -15,7 +15,7 @@ For convenience, you can use the following commands to install the plugin.
 ### Linux (.deb installer) and MacOS (.app-bundle)
 Run the following command in the terminal to install the plugin.
 ```bash
-git clone https://github.com/masongyli/xournalpp-shortcut.git ~/.config/xournalpp/plugins/Shortcuts
+git clone https://github.com/masongyli/xournalpp-shortcuts.git ~/.config/xournalpp/plugins/Shortcuts
 ```
 
 After that, the file path of `main.lua` should be `~/.config/xournalpp/plugins/Shortcuts/main.lua`
@@ -23,12 +23,12 @@ After that, the file path of `main.lua` should be `~/.config/xournalpp/plugins/S
 ### Windows (.exe installer)
 Run the following command in Git Bash to install the plugin.
 ```bash
-git clone https://github.com/masongyli/xournalpp-shortcut.git ~/AppData/Local/xournalpp/plugins/Shortcuts
+git clone https://github.com/masongyli/xournalpp-shortcuts.git ~/AppData/Local/xournalpp/plugins/Shortcuts
 ```
 
 or run the following command in cmd to install the plugin.
 ```cmd
-git clone https://github.com/masongyli/xournalpp-shortcut.git %homedrive%%homepath%\AppData\Local\xournalpp\plugins\Shortcuts
+git clone https://github.com/masongyli/xournalpp-shortcuts.git %homedrive%%homepath%\AppData\Local\xournalpp\plugins\Shortcuts
 ```
 
 ## Default shortcuts
